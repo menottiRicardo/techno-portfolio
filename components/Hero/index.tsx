@@ -1,7 +1,6 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
-import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 const Hero = () => {
@@ -11,7 +10,7 @@ const Hero = () => {
     delaySpeed: 2000,
   });
   return (
-    <section id="hero" className="snap-center">
+    <section id="hero" className="snap-start">
       <div className="h-screen flex flex-col space-y-0 items-center justify-center text-center overflow-hidden">
         <BackgroundCircles />
 
