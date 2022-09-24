@@ -29,7 +29,7 @@ const ContactMe = () => {
 
             <div className="flex items-center space-x-5 justify-center">
               <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-              <p className="text-2xl">Panama, Panama</p>
+              <p className="text-2xl">ricardomenotti31@gmail.com</p>
             </div>
 
             <div className="flex items-center space-x-5 justify-center">
@@ -41,13 +41,13 @@ const ContactMe = () => {
 
         <form className="flex flex-col space-y-2 w-fit mx-auto">
           <div className="flex space-x-2">
-            <input type="text" className="contactInput"/>
-            <input type="text" className="contactInput"/>
+            <input type="text" className="contactInput" placeholder="Name"/>
+            <input type="text" className="contactInput" placeholder="Email"/>
           </div>
-          <input type="text" className="contactInput"/>
+          <input type="text" className="contactInput" placeholder="Subject"/>
 
-          <textarea className="contactInput"/>
-          <button className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold">Submit</button>
+          <textarea className="contactInput" placeholder="Message"/>
+          <button className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg">Submit</button>
         </form>
       </motion.div>
     </section>

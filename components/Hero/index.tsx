@@ -24,8 +24,8 @@ const Hero = () => {
         </div>
 
         <div className="z-20">
-          <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
-            Menotti Solutions
+          <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[22px]">
+            Menotti
           </h2>
           <h1 className="text-5xl lg:text-6xl font-semibold px-10">
             <span>We </span>
