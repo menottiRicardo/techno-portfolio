@@ -14,7 +14,7 @@ const Experience = () => {
           Projects
         </h3>
 
-        <div className="w-full mt-24 flex space-x-5 overflow-x-scroll snap-mandatory">
+        <div className="w-full mt-24 flex space-x-5 overflow-x-scroll snap-mandatory md:scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7A80A]/80">
           <ExperienceCard />
           <ExperienceCard />
           <ExperienceCard />
