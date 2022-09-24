@@ -44,9 +44,9 @@ const Hero = () => {
             <Link href={"#technologies"}>
               <button className="heroButton">Technologies</button>
             </Link>
-            <Link href={"#projects"}>
+            {/* <Link href={"#projects"}>
               <button className="heroButton">Projects</button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

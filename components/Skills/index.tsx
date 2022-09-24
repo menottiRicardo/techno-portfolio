@@ -17,27 +17,28 @@ const Skills = () => {
         <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">
           You name it we got it
         </h3>
+        <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12"></div>
         <div className="grid grid-cols-4 gap-5 mt-36">
-          <Skill directionLeft={false}/>
-          <Skill directionLeft={false}/>
-          <Skill directionLeft={false}/>
-          <Skill directionLeft={false}/>
-          <Skill directionLeft={true}/>
-          <Skill directionLeft={true}/>
-          <Skill directionLeft={true}/>
-          <Skill directionLeft={true}/>
-          <Skill directionLeft={false}/>
-          <Skill directionLeft={false}/>
-          <Skill directionLeft={false}/>
-          <Skill directionLeft={false}/>
-          <Skill directionLeft={true}/>
-          <Skill directionLeft={true}/>
-          <Skill directionLeft={true}/>
-          <Skill directionLeft={true}/>
-          <Skill directionLeft={false}/>
-          <Skill directionLeft={false}/>
-          <Skill directionLeft={true}/>
-          <Skill directionLeft={true}/>
+          <Skill directionLeft={false} />
+          <Skill directionLeft={false} />
+          <Skill directionLeft={false} />
+          <Skill directionLeft={false} />
+          <Skill directionLeft={true} />
+          <Skill directionLeft={true} />
+          <Skill directionLeft={true} />
+          <Skill directionLeft={true} />
+          <Skill directionLeft={false} />
+          <Skill directionLeft={false} />
+          <Skill directionLeft={false} />
+          <Skill directionLeft={false} />
+          <Skill directionLeft={true} />
+          <Skill directionLeft={true} />
+          <Skill directionLeft={true} />
+          <Skill directionLeft={true} />
+          <Skill directionLeft={false} />
+          <Skill directionLeft={false} />
+          <Skill directionLeft={true} />
+          <Skill directionLeft={true} />
         </div>
       </motion.div>
     </section>
