@@ -4,7 +4,7 @@ import { EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid";
 
 const ContactMe = () => {
   return (
-    <section id="contact" className="snap-start">
+    <section id="contact" className="snap-center pb-12">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
