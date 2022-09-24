@@ -10,7 +10,7 @@ const About = () => {
         transition={{ duration: 1.5 }}
         className="h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
       >
-        <h3 className="absolute top-20 md:top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+        <h3 className="absolute top-12 md:top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
           About
         </h3>
         <motion.img
@@ -19,7 +19,7 @@ const About = () => {
           viewport={{ once: true }}
           transition={{ duration: 1.2 }}
           src="/ricardo.jpg"
-          className="-mb-28 md:mb-0 mt-10 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:height-[96]"
+          className="-mb-28 md:mb-0 mt-12 flex-shrink-0 w-40 h-40 md:h-64 rounded-full object-cover md:rounded-lg md:w-64 md:height-[96]"
         />
 
         <div className="space-y-10 px-0 md:px-10">
