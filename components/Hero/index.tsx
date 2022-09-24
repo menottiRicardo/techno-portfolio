@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Hero = () => {
   const [text, count] = useTypewriter({
-    words: ["Experiences", "Solutions", "Apps"],
+    words: ["Create Experiences", "Find Solutions", "Develop Apps"],
     loop: true,
     delaySpeed: 2000,
   });
@@ -28,7 +28,7 @@ const Hero = () => {
             Menotti Solutions
           </h2>
           <h1 className="text-5xl lg:text-6xl font-semibold px-10">
-            <span>We Develop </span>
+            <span>We </span>
             <span>{text}</span>
 
             <Cursor cursorColor="#F7AB0A" />
