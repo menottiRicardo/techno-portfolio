@@ -3,7 +3,43 @@
 @tailwind utilities;
 
 @layer components {
-    .heroButton{
-        @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40 
-    }
+  .heroButton {
+    @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40;
+  }
+}
+@layer base {
+  /* inter var - latin */
+  .layout {
+    /* 750px */
+    max-width: 43.75rem;
+
+    /* 1100px */
+    max-width: 54.75rem;
+    @apply w-11/12 mx-auto;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 2vh;
+    background: #946606;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #F7AB0A;
+    border-radius: 100vh;
+    border: 2px solid #F7AB0A;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F7AB0A;
+  }
 }
