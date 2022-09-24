@@ -19,7 +19,7 @@ const About = () => {
           viewport={{ once: true }}
           transition={{ duration: 1.2 }}
           src="/ricardo.jpg"
-          className="-mb-28 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:height-[96]"
+          className="-mb-28 md:mb-0 mt-10 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:height-[96]"
         />
 
         <div className="space-y-10 px-0 md:px-10">

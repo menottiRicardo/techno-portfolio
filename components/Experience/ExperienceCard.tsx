@@ -41,10 +41,10 @@ const ExperienceCard = () => {
         <p>Started:</p>
         <ul className="list-disc space-y-4 ml-5 text-lg">
           <li>sumarry</li>
-          <li>poitinsf</li>
-          <li>klajsflk</li>
-          <li>ajklsfj</li>
-          <li>akljfl</li>
+          <li>sumarry</li>
+          <li>sumarry</li>
+          <li>sumarry</li>
+          <li>sumarry</li>
         </ul>
       </div>
     </article>

@@ -15,7 +15,7 @@ const ContactMe = () => {
           Contact
         </h3>
 
-        <div className="space-y-10">
+        <div className="space-y-10 mt-20">
           <h4 className="text-4xl font-semibold text-center">
             We got just what you need.
           </h4>
@@ -39,15 +39,17 @@ const ContactMe = () => {
           </div>
         </div>
 
-        <form className="flex flex-col space-y-2 w-fit mx-auto">
-          <div className="flex space-x-2">
-            <input type="text" className="contactInput" placeholder="Name"/>
-            <input type="text" className="contactInput" placeholder="Email"/>
+        <form className="flex flex-col space-y-2 w-fit">
+          <div className="md:flex w-full md:space-x-2">
+            <input type="text" className="contactInput w-full" placeholder="Name"/>
+            <input type="text" className="contactInput mt-2 w-full md:mt-0" placeholder="Email"/>
           </div>
-          <input type="text" className="contactInput" placeholder="Subject"/>
+          <input type="text" className="contactInput" placeholder="Subject" />
 
-          <textarea className="contactInput" placeholder="Message"/>
-          <button className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg">Submit</button>
+          <textarea className="contactInput" placeholder="Message" />
+          <button className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg">
+            Submit
+          </button>
         </form>
       </motion.div>
     </section>
