@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 import About from "../components/About/About";
 import ContactMe from "../components/ContactMe/ContactMe";
 
@@ -27,6 +28,18 @@ const Home: NextPage = () => {
       <Skills />
 
       <ContactMe />
+
+      <Link href={"#hero"}>
+        <footer className="sticky bottom-0 w-full cursor-pointer">
+          <div className="flex items-center justify-center">
+            <img
+              src="/logo.png"
+              alt="mini-logo"
+              className="h-10 w-10 filter grayscale hover:grayscale-0"
+            />
+          </div>
+        </footer>
+      </Link>
     </div>
   );
 };
